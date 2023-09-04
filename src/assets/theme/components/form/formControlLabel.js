@@ -14,11 +14,11 @@ Coded by www.creative-tim.com
 */
 
 // Material Kit 2 React base styles
-import colors from "assets/theme/base/colors";
-import typography from "assets/theme/base/typography";
+import colors from "/workspaces/ScottsStaticWebApp/src/assets/theme/base/colors";
+import typography from "/workspaces/ScottsStaticWebApp/src/assets/theme/base/typography";
 
 // Material Kit 2 React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from "/workspaces/ScottsStaticWebApp/src/assets/theme/functions/pxToRem";
 
 const { dark } = colors;
 const { size, fontWeightBold } = typography;
