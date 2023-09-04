@@ -1,5 +1,11 @@
 {
-    "navigationFallback": {
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+          "*": ["src/*"]
+        }
+      },
+      "navigationFallback": {
         "rewrite": "/index.html"
     }
 }
