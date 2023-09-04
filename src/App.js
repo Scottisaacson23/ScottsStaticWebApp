@@ -1,23 +1,27 @@
-import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Portfolio from './Portfolio';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>About Me</h1>
-        <p>Hello, I'm [Your Name].</p>
-        <p>I am a [Your Profession] with expertise in [Your Skills].</p>
-        <p>
-          Here are some things about me:
-        </p>
-        <ul>
-          <li>I have [X] years of experience in [Field].</li>
-          <li>I am passionate about [Your Interests/Hobbies].</li>
-          <li>[Any other interesting fact about you]</li>
-        </ul>
-      </header>
+      <Router>
+        <header className="App-header">
+          {/* ... */}
+          <Link to="/portfolio">
+            <Button variant="primary" className="mt-4">
+              View My Portfolio
+            </Button>
+          </Link>
+        </header>
+        <Switch>
+          <Route path="/portfolio" component={Portfolio} />
+        </Switch>
+      </Router>
     </div>
   );
 }
+
 
 export default App;
