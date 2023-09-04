@@ -14,11 +14,11 @@ Coded by www.creative-tim.com
 */
 
 // Material Kit 2 React base styles
-import colors from "/workspaces/ScottsStaticWebApp/src/assets/theme/base/colors";
+import colors from "assets/theme/base/colors";
 
 // Material Kit 2 React helper functions
-import pxToRem from "/workspaces/ScottsStaticWebApp/src/assets/theme/functions/pxToRem";
-import boxShadow from "/workspaces/ScottsStaticWebApp/src/assets/theme/functions/boxShadow";
+import pxToRem from "assets/theme/functions/pxToRem";
+import boxShadow from "assets/theme/functions/boxShadow";
 
 const { white } = colors;
 
