@@ -8,8 +8,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "./assets/theme";
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
   <ThemeProvider theme={theme}>
   <CssBaseline />
   // ... your code goes here
